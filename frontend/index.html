@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+  ============================================================
+   FRONTEND - Mis Tareas
+  ============================================================
+   Esta es la ÚNICA página HTML de la app (se llama SPA: Single Page App).
+   El contenido de cada pantalla lo dibuja JavaScript dentro del
+   <div id="app">. Empieza en js/main.js
+-->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Hace que la app se vea bien en el celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#4C63DB" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Mis Tareas</title>
+
+    <!-- Permite "instalar" la app en la pantalla de inicio del celular -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="icono.svg" type="image/svg+xml" />
+
+    <!-- Tipografía Inter (la misma del diseño) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="mensaje" class="mensaje"></div>
+
+    <!-- type="module" permite usar import/export entre archivos JS -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

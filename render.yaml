@@ -1,0 +1,9 @@
+# Configuración para publicar la app gratis en Render (https://render.com)
+services:
+  - type: web
+    name: mis-tareas
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start

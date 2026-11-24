@@ -1,0 +1,12 @@
+{
+  "name": "mis-tareas-backend",
+  "version": "1.0.0",
+  "description": "Backend (servidor) de la app Mis Tareas. Hecho con Node.js + Express y Programación Orientada a Objetos.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
