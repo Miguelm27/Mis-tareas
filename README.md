@@ -43,6 +43,15 @@ En la terminal aparecerá algo así:
 
 > El computador debe quedarse con el servidor encendido mientras usas la app.
 
+## 🌐 Versión publicada en internet (Render)
+La app también se puede publicar gratis en **Render** (archivo `render.yaml`).
+Así se abre desde cualquier celular con un enlace, sin tener el PC prendido.
+
+- **Cuenta demo** (se crea sola si la base de datos está vacía):
+  correo `demo@mistareas.com` · contraseña `demo123`
+- En el plan gratis, si nadie la usa por 15 minutos se "duerme": la primera vez tarda
+  ~1 minuto en abrir. Además, al reiniciarse se borran las cuentas nuevas (la demo se vuelve a crear).
+
 ---
 
 ## 📁 Organización de carpetas
